@@ -17,7 +17,7 @@ pipeline {
       stage('Build Project') {
          steps {
             sh '''
-            cd shopizer
+            echo 'cd shopizer'
             mvnw clean install
             '''
          }
