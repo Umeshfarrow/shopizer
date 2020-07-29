@@ -18,7 +18,7 @@ pipeline {
          steps {
             sh '''
             echo 'cd shopizer'
-            mvnw clean install
+            mvn clean install
             '''
          }
       }
