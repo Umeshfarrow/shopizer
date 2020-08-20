@@ -5,9 +5,9 @@ pipeline {
         maven 'maven' 
         jdk 'jdk1.8' 
     } 
-    
+    */
    stages {    
-        
+        /*
       stage('SCM') {
          steps {
             git 'https://github.com/Umeshfarrow/shopizer.git'
